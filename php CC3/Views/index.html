@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <form action="">
+        <div class="form-group">
+          <label for="Ncin">Ncin :</label>
+          <input type="text" class="form-control" id="NcinClient" name="Ncin" />
+        </div>
+        <div class="form-group">
+          <label for="equipement">Equipement :</label>
+          <select class="form-control" name="RefEquipement" id="RefEquipement">
+            <option value="select un option">Select Un Option</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="duree">Duree(h) :</label>
+          <input id="DateLoc" name="DateLoc" type="number" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" id="btnAjouter">Add</button>
+      </form>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
